@@ -1,54 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Blog</title>
-  </head>
-  <body>
-    <header class="heading">
-      <h1>MY BLOG</h1>
-      <p>Welcome to the blog of <span class="box">unknown</span></p>
-    </header>
 
-    <section class="container">
-      <section class="article-1">
-        
-          <img src="images/woods.jpg" alt="sky" />
-          <article class="text">
-          <h2>TITLE HEADING</h2>
-          <p>Title description, <span class="date">October 23, 2023</span></p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-            ex nulla quasi excepturi incidunt fugiat pariatur. Laboriosam
-            impedit sit ipsam.
-          </p>
-          <section class="links">
-          <a href="#" class="links">READ MORE</a>
-          <p>Comments</p>
-          <span class="box">0</span>
-        </section>
-        </article>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>My Blog</title>
+</head>
 
-      <section class="article-2">
-        
-        <img src="images/bridge.jpg" alt="bridge">
-        
-        <article class="text">
-        <h2>TITLE HEADING</h2>
-        <p>Title description, <span class="date">October 23, 2023</span></p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-          ex nulla quasi excepturi incidunt fugiat pariatur. Laboriosam
-          impedit sit ipsam.
+<body>
+  <header class="heading">
+    <h1>MY BLOG</h1>
+    <p>Welcome to the blog of <span>unknown</span></p>
+  </header>
+
+  <section class="grid-container">
+    <section class="article-1">
+      <img src="images/woods.jpg" alt="woods" />
+      <article class="text">
+        <h2 class="title">TITLE HEADING</h2>
+        <h3 class="date">
+          Title Description, <span class="color">August 23, 2023</span>
+        </h3>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          error deserunt quibusdam corporis, similique officiis placeat
+          reprehenderit corrupti explicabo nostrum!
         </p>
-        <section class="links">
-        <a href="#" class="links">READ MORE</a>
+      </article>
+      <div class="flex">
+        <a href="#readmore" class="link">READ MORE</a>
         <p>Comments</p>
-        <span class="box">0</span>
-      </section>
+      </div>
     </section>
-  </body>
+    <section class="article-1 blog">
+      <img src="images/bridge.jpg" alt="woods" />
+      <article class="text">
+        <h2 class="title">BLOG ENTRY</h2>
+        <h3 class="date">
+          Title Description, <span class="color">August 23, 2023</span>
+        </h3>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          error deserunt quibusdam corporis, similique officiis placeat
+          reprehenderit corrupti explicabo nostrum!
+        </p>
+      </article>
+      <div class="flex">
+        <a href="#readmore" class="link">READ MORE</a>
+        <p>Comments</p>
+      </div>
+    </section>
+    <section class="my-name">
+      <img src="images/avatar_g.jpg" alt="" />
+      <h2 class="title">MY NAME</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+        assumenda mollitia ea a officia saepe!
+      </p>
+    </section>
+
+    <section class="posts">
+      <header class="post-heading">
+        <h3>Popular Posts</h3>
+      </header>
+      
+      <article class="text-2">
+        <img src="images/workshop.jpg" alt="">
+        <div class="text-3">
+        <h3>Lorem</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      </article>
+      
+      
+      <article class="text-2">
+        <img src="images/gondol.jpg" alt="">
+        <div class="text-3">
+        <h3>Lorem</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      </article>
+
+      <article class="text-2">
+        <img src="images/skies.jpg" alt="">
+        <div class="text-3">
+        <h3>Lorem</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      </article>
+
+      <article class="text-2">
+        <img src="images/skies.jpg" alt="">
+        <div class="text-3">
+        <h3>Lorem</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      </article>
+      
+      
+    </section>
+    
+
+    <section class="tags">
+      <div class="post-heading">
+      <h2 class="title">Tags</h2>
+    </div>
+      <ul>
+        <li>Travel</li>
+        <li>New York</li>
+        <li>London</li>
+        <li>IKEA</li>
+        <li>Norway</li>
+        <li>DIY</li>
+        <li>Ideas</li>
+        <li>Baby</li>
+        <li>Family</li>
+        <li>News</li>
+        <li>Clothing</li>
+        <li>Shopping</li>
+        <li>Sports</li>
+        <li>Games</li>
+      </ul>
+    </section>
+
+  </section>
+</body>
+
 </html>
